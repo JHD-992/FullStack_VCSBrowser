@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <link
+    href="/stylesheets/index.css"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    rel="stylesheet"
+  />
+  <title>
+    VCS Browser
+  </title>
+  <h1>
+    VCS Browser
+  </h1>
+  <p>
+    Welcome to the VCS browser project. This project will endevour to provide easrch functionality across 3 different VCS systems GitHub, GitLab and BitBucket.
+  </p>
+  <div
+    class="topnav"
+  >
+    <a
+      class="active"
+      href="/"
+    >
+      Home
+    </a>
+    <div
+      class="search-container"
+    >
+      <form
+        action="/gitLabUsers"
+      >
+        <input
+          name="search"
+          placeholder="Search on GitLab"
+          type="text"
+        />
+        <button
+          type="submit"
+        >
+          <i
+            class="fa fa-search"
+          />
+        </button>
+      </form>
+    </div>
+    <div
+      class="search-container"
+    >
+      <form
+        action="/bitBucketUsers"
+      >
+        <input
+          name="search"
+          placeholder="Search on BitBucket"
+          type="text"
+        />
+        <button
+          type="submit"
+        >
+          <i
+            class="fa fa-search"
+          />
+        </button>
+      </form>
+    </div>
+    <div
+      class="search-container"
+    >
+      <form
+        action="/gitHubUsers"
+      >
+        <input
+          name="search"
+          placeholder="Search on GitHub"
+          type="text"
+        />
+        <button
+          type="submit"
+        >
+          <i
+            class="fa fa-search"
+          />
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

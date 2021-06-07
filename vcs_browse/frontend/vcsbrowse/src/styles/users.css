@@ -1,0 +1,13 @@
+body {
+    padding: 20px;
+    background-image: radial-gradient(khaki, brown);
+}
+
+a{
+    color: darkblue;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+}
